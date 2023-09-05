@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  s3_bucket: nlpsummarizer
+  s3_object_key: dataset/samsum_dataset.csv
+  local_data_file: samsum_dataset.csv
