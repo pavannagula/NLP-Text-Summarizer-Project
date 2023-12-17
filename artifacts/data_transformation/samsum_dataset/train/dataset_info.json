@@ -1,0 +1,66 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "samsum_dataset",
+  "dataset_size": 10529955,
+  "description": "",
+  "download_checksums": {
+    "C:\\Users\\pavan\\Desktop\\NLP-Text-Summarizer-Project\\artifacts\\data_ingestion\\samsum_dataset\\samsum_dataset.csv": {
+      "num_bytes": 10443619,
+      "checksum": null
+    }
+  },
+  "download_size": 10443619,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "dialogue": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "summary": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 20973574,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 10529955,
+      "num_examples": 16368,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
