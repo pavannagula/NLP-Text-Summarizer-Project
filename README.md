@@ -1,2 +1,1 @@
-# NLP-Text-Summarizer-Project (⚒️🏗️ In Progress)
-
+# NLP-Text-Summarizer-Project
