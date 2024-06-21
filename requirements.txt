@@ -17,5 +17,4 @@ python-box~=7.0
 ensure==1.0.2
 fastapi
 uvicorn==0.18.3
-Jinja2==3.1.2
 -e .
